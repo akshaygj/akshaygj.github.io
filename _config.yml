@@ -26,8 +26,8 @@ navigation:
   url: /blog/
 - text: Tags
   url: /tags/
-- text: Archive
-  url : /archive/
+# - text: Archive
+#   url : /archive/
 - text: Search
   url: /search/
 
