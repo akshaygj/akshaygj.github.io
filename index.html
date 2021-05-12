@@ -90,17 +90,17 @@ description: Home Page
 
 		<div class="row" style="margin-bottom:25px">
 
-			<div class="col-md-2 col-sm-3 col-xs-6">
+<!-- 			<div class="col-md-2 col-sm-3 col-xs-6">
 				<a href="{{site.twitter}}" title="Twitter" class="tile blue">
 					<i class="icon-twtr" style="font-size:8em"></i>
 				</a>
 			</div>
 
-<!-- 			<div class="col-md-2 col-sm-3 col-xs-6">
+ 			<div class="col-md-2 col-sm-3 col-xs-6">
 				<a href="{{site.gplus}}" title="Google Plus"  class="tile orange">
 					<i class="icon-gpls" style="font-size:8em"></i>
 				</a>
-			</div> -->
+			</div>
 
 			<div class="col-md-2 col-sm-3 col-xs-6">
 				<a href="{{site.facebook}}" class="tile blue">
@@ -120,13 +120,14 @@ description: Home Page
 				<a href="{{site.linkedin}}" title="LinkedIn" class="tile blue">
 					<i class="icon-lkin" style="font-size:8em"></i>
 				</a>
-			</div>
+			</div> -->
+			
+		      <div class="col-ms-12 text-center">
+			    {% if site.footersvg == 'true' %}
+				  <div>{% include svg-icons.html %}</div>
+			    {% endif %}
+		      </div>
 		</div>
 		
-	      <div class="col-ms-12 text-center">
-		    {% if site.footersvg == 'true' %}
-			  <div>{% include svg-icons.html %}</div>
-		    {% endif %}
-	      </div>
 	</nav>
 </div>
