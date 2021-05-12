@@ -122,5 +122,13 @@ description: Home Page
 				</a>
 			</div>
 		</div>
+		
+	      <div class="col-ms-12 text-center">
+		    <hr/>
+		    {% if site.footersvg == 'true' %}
+			  <div>{% include svg-icons.html %}</div>
+		    {% endif %}
+		    &copy; {{ site.time | date: '%Y' }} - {{site.author}}. All rights reserved<br/>
+	      </div>
 	</nav>
 </div>
