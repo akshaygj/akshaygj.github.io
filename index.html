@@ -76,7 +76,7 @@ description: Home Page
 				{% for post in site.posts %}
 					{% if post.featured == true %}
 					<a href="{{post.url}}" title="Featured Article">
-						<div class="tile orange">
+						<div class="tile blue">
 							<h3 class="title">Featured Article</h3>
 							<h4 class="title">{{ post.title }}</h4>
 							<p> {{ post.content | strip_html | truncatewords: 10 }}</p>
@@ -88,7 +88,7 @@ description: Home Page
 			</div>
 		</div>
 
-		<div class="row" style="margin-bottom:25px">
+		<div class="row" style="margin-bottom:10px">
 
 <!-- 			<div class="col-md-2 col-sm-3 col-xs-6">
 				<a href="{{site.twitter}}" title="Twitter" class="tile blue">
